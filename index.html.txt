@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solar System Explorer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0b0c10;
+      color: #ffffff;
+      background-image: radial-gradient(#1f2833 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background-color: #1f2833;
+      border-bottom: 2px solid #45a29e;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #66fcf1;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #c5c6c7;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #66fcf1;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #66fcf1;
+    }
+
+    .planet {
+      margin-bottom: 30px;
+      border-left: 4px solid #45a29e;
+      padding-left: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1f2833;
+      border-top: 2px solid #45a29e;
+      color: #c5c6c7;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Solar System Explorer</h1>
+    <nav>
+      <a href="#intro">Home</a>
+      <a href="#planets">Planets</a>
+      <a href="#sun">Sun</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>Welcome</h2>
+    <p>Explore our beautiful solar system — from the blazing Sun to the icy reaches of Neptune. Learn amazing facts about planets and more!</p>
+  </section>
+
+  <section id="planets">
+    <h2>Planets</h2>
+
+    <div class="planet">
+      <h3>🌑 Mercury</h3>
+      <p>The smallest and closest planet to the Sun. Surface temperatures vary dramatically.</p>
+    </div>
+
+    <div class="planet">
+      <h3>🌕 Venus</h3>
+      <p>The hottest planet in the solar system due to its thick, toxic atmosphere.</p>
+    </div>
+
+    <div class="planet">
+      <h3>🌍 Earth</h3>
+      <p>Our home! The only planet known to support life.</p>
+    </div>
+
+    <div class="planet">
+      <h3>🔴 Mars</h3>
+      <p>The red planet, home to the tallest volcano and a possible future human outpost.</p>
+    </div>
+
+    <div class="planet">
+      <h3>🪐 Jupiter</h3>
+      <p>The largest planet, a gas giant with a giant red storm and many moons.</p>
+    </div>
+
+    <div class="planet">
+      <h3>🌀 Saturn</h3>
+      <p>Famous for its stunning rings made of ice and rock.</p>
+    </div>
+
+    <div class="planet">
+      <h3>🔵 Uranus</h3>
+      <p>Rotates on its side. Has a faint ring system and a blue-green color.</p>
+    </div>
+
+    <div class="planet">
+      <h3>🔵 Neptune</h3>
+      <p>The windiest planet in the solar system and farthest from the Sun.</p>
+    </div>
+  </section>
+
+  <section id="sun">
+    <h2>☀️ The Sun</h2>
+    <p>The massive, blazing star at the center of our solar system. Its gravity holds everything in orbit.</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>This website was made to help you explore and learn more about our cosmic neighborhood.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Solar System Explorer | Designed by You 🚀</p>
+  </footer>
+</body>
+</html>
